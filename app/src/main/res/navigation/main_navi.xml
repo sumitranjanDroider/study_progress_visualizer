@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navi"
+    app:startDestination="@id/homeDashFragment">
+
+    <fragment
+        android:id="@+id/homeDashFragment"
+        android:name="com.srcorp.studyprogressvisaualizer.view.fragment.HomeDashFragment"
+        android:label="HomeDashFragment"
+        tools:layout="@layout/home_dash_board_fragment"/>
+</navigation>
