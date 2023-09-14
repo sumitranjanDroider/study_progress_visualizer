@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">StudyProgressVisaualizer</string>
+    <!-- Dashboard menu titles-->
+    <string name="home_m">Home</string>
+    <string name="goal_m">Goals</string>
+    <string name="subject_m">Subjects</string>
+    <string name="routine_m">Routine</string>
+
+
 </resources>

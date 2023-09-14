@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ <item
+     android:title="@string/home_m"
+     android:icon="@drawable/home_icon"
+     android:id="@+id/homeBtn"
+  />
+ <item
+  android:title="@string/routine_m"
+  android:icon="@drawable/routine_icon"
+  android:id="@+id/routineBtn"
+  />
+ <item
+  android:title="@string/subject_m"
+  android:icon="@drawable/subject_icon"
+  android:id="@+id/subjectBtn"
+  />
+ <item
+  android:title="@string/goal_m"
+  android:icon="@drawable/goal_icon"
+  android:id="@+id/goalsBtn"
+  />
+</menu>

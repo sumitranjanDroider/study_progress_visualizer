@@ -6,10 +6,10 @@ import androidx.room.PrimaryKey
 @Entity(tableName = "study_goal_table")
 data class StudyGoalModel(
     @PrimaryKey(autoGenerate = true)
-    var goalId:Int,
+    var studyGoalId:Int,
     var goalNo:Int,
-    var priority:String,//High Low Medium
+    var priority:String,//Running ,Waiting
     var periodRange:String,
-    var subjectName:String
-    //var targetDateList: List<SelCalenderRangeModel>
+    var routineTiming:String,
+
 )
